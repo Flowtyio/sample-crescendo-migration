@@ -33,7 +33,9 @@ https://cadence-lang.org/docs/cadence-migration-guide#install-cadence-10-cli
 
 ### Stage the updated version of the contract on the testnet
 
-- Inside the flow.json file, update the testnet contract address present inside the contracts > FlowtyTestNFT > aliases > testing object, using the new testnet account where you deployed you FlowtyTestNFT contract version 
+- Inside the flow.json file, update the testnet contract address present inside the contracts > FlowtyTestNFT > aliases > testing object, using the new testnet account address where you deployed you FlowtyTestNFT contract version 
+    - Current alises.testing value: ```0000000000000007```
+    - To the new testnet wallet address that you created on previous step
 
 - Inside the flow.json file, update the FlowtyTestNFT source, to use the crescendo update FlowtyTestNFT version, to it you will need to replace the: 
    - Current source: ```"./contracts/FlowtyTestNFT.cdc"```
