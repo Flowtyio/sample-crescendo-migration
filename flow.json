@@ -1,7 +1,7 @@
 {
   "contracts": {
-    "Counter": {
-      "source": "cadence/contracts/FlowtyTestNFT.cdc",
+    "FlowtyTestNFT": {
+      "source": "./contracts/FlowtyTestNFT.cdc",
       "aliases": {
         "testing": "0000000000000007"
       }

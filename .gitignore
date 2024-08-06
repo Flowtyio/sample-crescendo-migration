@@ -4,3 +4,6 @@ emulator-account.pkey
 imports
 
 node_modules/
+.vscode
+
+*.pkey
